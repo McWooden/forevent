@@ -2,6 +2,7 @@ import Confetti from "./Confetti"
 import Maps from "./Map"
 import Navbar from "./Navbar"
 
+
 function App() {
   
 
@@ -12,7 +13,7 @@ function App() {
 
         <div className="p-4 flex flex-col gap-4 max-w-lg w-full">
           <h3 className="text-xl font-semibold text-neutral-700">Selamat atas pernikahannya! 💍</h3>
-          <div style={{backgroundImage: 'url(./src/assets/blanktext.webp)'}} className="p-2 bg-center bg-cover grid place-items-center h-full rounded-tl-lg rounded-tr-3xl rounded-br-lg rounded-bl-3xl shadow">
+          <div style={{backgroundImage: 'url(/blanktext.webp)'}} className="p-2 bg-center bg-cover grid place-items-center h-full rounded-tl-lg rounded-tr-3xl rounded-br-lg rounded-bl-3xl shadow">
             <div className="py-28">
               <p className="text-5xl leading-3" style={{fontFamily: "'Motterdam', sans-serif"}}>Tono <span className="opacity-0">-</span></p>
               <p className="text-5xl leading-8 text-center text-yellow-600" style={{fontFamily: "'Motterdam', sans-serif"}}>&</p>
