@@ -9,7 +9,7 @@ function App() {
   return (
     <div className="h-screen flex flex-col overflow-hidden">
       <Navbar/>
-      <div className="flex-1 bg-neutral-100 overflow-auto p-2 flex flex-col items-center">
+      <div className="flex-1 bg-neutral-100 overflow-y-auto overflow-x-hidden p-2 flex flex-col items-center">
 
         <div className="p-4 flex flex-col gap-4 max-w-lg w-full">
           <h3 className="text-xl font-semibold text-neutral-700">Selamat atas pernikahannya! 💍</h3>
